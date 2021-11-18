@@ -117,7 +117,7 @@ public class RegExp {
 
     //searching only for "kot" in parts of other words
     private static int findKotInWords(String text) {
-        Pattern kotPattern = Pattern.compile("([а-я]+кот)|(кот[а-я]+)",
+        Pattern kotPattern = Pattern.compile("([А-Яа-я]+кот)|(кот[А-Яа-я]+)",
                                             Pattern.CASE_INSENSITIVE + Pattern.UNICODE_CASE);
         return findKot(text, kotPattern);
     }
