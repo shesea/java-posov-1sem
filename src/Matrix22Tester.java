@@ -17,10 +17,10 @@ public class Matrix22Tester {
         double[][] m1Arr = m1.getMatrix();
         System.out.println(Arrays.deepEquals(m1Arr, new double[][]{{1, 2}, {3, 4}}));
         m1Arr[0][0] = 0;
-        System.out.println(m1.toString());
+        System.out.println(m1);
 
-        System.out.println(m2.toString());
-        System.out.println(m3.toString());
+        System.out.println(m2);
+        System.out.println(m3);
 
         m1.print();
         m2.print();

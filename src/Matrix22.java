@@ -1,5 +1,5 @@
 public class Matrix22 {
-    private double a, b, c, d;
+    private final double a, b, c, d;
 
     public Matrix22(double a, double b, double c, double d) {
         this.a = a;
@@ -35,7 +35,7 @@ public class Matrix22 {
     @Override
     public String toString() {
         String s = "";
-        s += String.valueOf(a) + "; " + String.valueOf(b) + "; " + String.valueOf(c) + "; " + String.valueOf(d);
+        s += a + "; " + b + "; " + c + "; " + d;
         return s;
     }
 

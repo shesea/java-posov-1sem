@@ -1,5 +1,5 @@
 public class Rotation extends Matrix22 {
-    private double angle;
+    private final double angle;
 
     public Rotation(double a) {
         super(Math.sin(Math.toRadians(a)), Math.cos(Math.toRadians(a)),
