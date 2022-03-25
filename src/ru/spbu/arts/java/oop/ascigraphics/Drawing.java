@@ -13,9 +13,9 @@ public class Drawing {
     }
 
     public void print() {
-        for (int i = 0; i < image.length; i++) {
-            for (int j = 0; j < image[i].length; j++) {
-                System.out.print(image[i][j]);
+        for (char[] chars : image) {
+            for (char aChar : chars) {
+                System.out.print(aChar);
             }
             System.out.print('\n');
         }

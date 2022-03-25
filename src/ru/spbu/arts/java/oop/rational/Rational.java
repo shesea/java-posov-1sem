@@ -29,10 +29,11 @@ public class Rational {
     }
 
     public Rational(int n, int d) {
-        if (d <= 0)
-            System.out.println("Denominator must be positive integer");
-        else
-            setMembers(n, d);
+        if (d < 0) {
+            n *= -1;
+            d *= -1;
+        }
+        setMembers(n, d);
     }
 
     public Rational(int n) {

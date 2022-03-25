@@ -15,11 +15,13 @@ public class RationalTest {
         Rational rational2 = new Rational(0);
         Rational rational3 = new Rational (1);
         Rational rational4 = new Rational(16, 28);
+        Rational rational5 = new Rational(-2, -3);
 
         System.out.println(rational1);
         System.out.println(rational2);
         System.out.println(rational3);
         System.out.println(rational4);
+        System.out.println(rational5);
 
         System.out.println(rational1.toDouble());
         System.out.println(rational4.toDouble());
