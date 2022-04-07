@@ -1,6 +1,8 @@
 package ru.spbu.arts.java.oop.ascigraphics;
 
-public class Drawing {
+import ru.spbu.arts.java.lambda.Printable;
+
+public class Drawing implements Printable {
     private char[][] image;
 
     public Drawing(int lines, int columns, char symbol) {
@@ -12,6 +14,7 @@ public class Drawing {
         }
     }
 
+    @Override
     public void print() {
         for (char[] chars : image) {
             for (char aChar : chars) {
