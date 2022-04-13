@@ -1,3 +1,5 @@
+package ru.spbu.arts.java.algorithms;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 

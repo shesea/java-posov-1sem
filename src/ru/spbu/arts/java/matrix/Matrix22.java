@@ -1,3 +1,5 @@
+package ru.spbu.arts.java.matrix;
+
 public class Matrix22 {
     private final double a, b, c, d;
 

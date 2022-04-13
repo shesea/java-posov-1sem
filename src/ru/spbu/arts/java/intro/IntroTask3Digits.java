@@ -1,3 +1,5 @@
+package ru.spbu.arts.java.intro;
+
 public class IntroTask3Digits {
     public static void main(String[] args) {
         System.out.println(is_3Digits(100));

@@ -1,3 +1,5 @@
+package ru.spbu.arts.java.intro;
+
 public class IntroTaskLeap {
     public static void main(String[] args) {
         System.out.println(isLeap(1600));

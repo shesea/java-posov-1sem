@@ -1,3 +1,5 @@
+package ru.spbu.arts.java.matrix;
+
 import java.util.Arrays;
 
 public class Matrix22Tester {

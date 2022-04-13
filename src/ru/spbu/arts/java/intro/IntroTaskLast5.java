@@ -1,3 +1,5 @@
+package ru.spbu.arts.java.intro;
+
 public class IntroTaskLast5 {
     public static void main(String[] args) {
         System.out.println(isLast5(105));

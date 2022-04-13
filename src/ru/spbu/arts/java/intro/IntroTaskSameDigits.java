@@ -1,3 +1,5 @@
+package ru.spbu.arts.java.intro;
+
 public class IntroTaskSameDigits {
     public static void main(String[] args) {
         System.out.println(isSameDigits(7));

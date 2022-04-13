@@ -1,3 +1,5 @@
+package ru.spbu.arts.java.intro;
+
 public class IntroTaskCat {
     public static void main(String[] args) {
         System.out.println(catify(1));

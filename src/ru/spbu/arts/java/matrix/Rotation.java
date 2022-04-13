@@ -1,3 +1,7 @@
+package ru.spbu.arts.java.matrix;
+
+import ru.spbu.arts.java.matrix.Matrix22;
+
 public class Rotation extends Matrix22 {
     private final double angle;
 

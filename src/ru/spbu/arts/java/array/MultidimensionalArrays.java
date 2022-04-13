@@ -1,3 +1,5 @@
+package ru.spbu.arts.java.array;
+
 import java.util.Arrays;
 
 public class MultidimensionalArrays {
