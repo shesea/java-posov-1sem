@@ -7,4 +7,5 @@ module ru.spbu.arts.java.javafx {
     opens ru.spbu.arts.java.javafx.button;
     opens ru.spbu.arts.java.javafx.messenger;
     opens ru.spbu.arts.java.javafx.circle;
+    opens ru.spbu.arts.java.javafx.images;
 }
