@@ -6,7 +6,7 @@ import java.nio.file.Path;
 
 public class FileVisitorTest {
     public static void main(String[] args) throws IOException {
-        Path searchDir = Path.of("D:/cimo/utility/qwerty");
-        Files.walkFileTree(searchDir, new FilesCollector());
+        Path path = Path.of("D:/cimo/utility/qwerty");
+        Files.walkFileTree(path, new FilesCollector());
     }
 }
